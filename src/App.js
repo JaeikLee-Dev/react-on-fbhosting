@@ -1,4 +1,5 @@
 import './App.css';
+import QuestionPage from './pages/QuestionPage';
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <header className="App-header">
         Personal Character-type Test
       </header>
+      <QuestionPage />
     </div>
   );
 }
